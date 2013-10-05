@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Solid Ingenuity";
 				TargetAttributes = {
+					09FE79FD18008579000ECF1A = {
+						DevelopmentTeam = GEH45Z9N85;
+					};
 					09FE7A1E1800857C000ECF1A = {
 						TestTargetID = 09FE79FD18008579000ECF1A;
 					};
@@ -381,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSS Lofprijs/ZSS Lofprijs-Prefix.pch";
 				INFOPLIST_FILE = "ZSS Lofprijs/ZSS Lofprijs-Info.plist";
@@ -394,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSS Lofprijs/ZSS Lofprijs-Prefix.pch";
 				INFOPLIST_FILE = "ZSS Lofprijs/ZSS Lofprijs-Info.plist";
