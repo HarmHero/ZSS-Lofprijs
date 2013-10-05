@@ -21,6 +21,7 @@
 		09FE7A231800857C000ECF1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE7A0518008579000ECF1A /* UIKit.framework */; };
 		09FE7A2B1800857C000ECF1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09FE7A291800857C000ECF1A /* InfoPlist.strings */; };
 		09FE7A2D1800857C000ECF1A /* ZSS_LofprijsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FE7A2C1800857C000ECF1A /* ZSS_LofprijsTests.m */; };
+		09FE7A3718008A13000ECF1A /* images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09FE7A3618008A13000ECF1A /* images.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		09FE7A281800857C000ECF1A /* ZSS LofprijsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZSS LofprijsTests-Info.plist"; sourceTree = "<group>"; };
 		09FE7A2A1800857C000ECF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09FE7A2C1800857C000ECF1A /* ZSS_LofprijsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSS_LofprijsTests.m; sourceTree = "<group>"; };
+		09FE7A3618008A13000ECF1A /* images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = images.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				09FE7A161800857A000ECF1A /* HTHViewController.h */,
 				09FE7A171800857A000ECF1A /* HTHViewController.m */,
 				09FE7A191800857B000ECF1A /* Images.xcassets */,
+				09FE7A3618008A13000ECF1A /* images.plist */,
 				09FE7A081800857A000ECF1A /* Supporting Files */,
 			);
 			path = "ZSS Lofprijs";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FE7A3718008A13000ECF1A /* images.plist in Resources */,
 				09FE7A1A1800857B000ECF1A /* Images.xcassets in Resources */,
 				09FE7A0C1800857A000ECF1A /* InfoPlist.strings in Resources */,
 				09FE7A151800857A000ECF1A /* Main.storyboard in Resources */,
@@ -468,6 +472,7 @@
 				09FE7A321800857C000ECF1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09FE7A331800857C000ECF1A /* Build configuration list for PBXNativeTarget "ZSS LofprijsTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +481,7 @@
 				09FE7A351800857C000ECF1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

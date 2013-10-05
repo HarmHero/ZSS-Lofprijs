@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HTHViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *mainView;
+@property (weak, nonatomic) IBOutlet UIScrollView *scollView;
+
 
 @end
