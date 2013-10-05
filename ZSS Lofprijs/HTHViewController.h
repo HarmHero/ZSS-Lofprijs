@@ -6,9 +6,10 @@
 //  Copyright (c) 2013 Solid Ingenuity. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HTHScrollCell.h"
 
-@interface HTHViewController : UIViewController
+@interface HTHViewController : UIViewController <HTHScrollCellDelegate>
+
 @property (weak, nonatomic) IBOutlet UIView *mainView;
 @property (weak, nonatomic) IBOutlet UIScrollView *scollView;
 

@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098F1D3818009EE700C276DB /* HTHScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 098F1D3718009EE700C276DB /* HTHScrollCell.m */; };
+		098F1D3B18009F4A00C276DB /* HTHDragCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 098F1D3A18009F4A00C276DB /* HTHDragCell.m */; };
+		098F1D491800BC8D00C276DB /* blij.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D3C1800BC8D00C276DB /* blij.png */; };
+		098F1D4A1800BC8D00C276DB /* danken.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D3D1800BC8D00C276DB /* danken.png */; };
+		098F1D4B1800BC8D00C276DB /* donderwolk.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D3E1800BC8D00C276DB /* donderwolk.png */; };
+		098F1D4C1800BC8D00C276DB /* donkerdenken.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D3F1800BC8D00C276DB /* donkerdenken.png */; };
+		098F1D4D1800BC8D00C276DB /* droevig.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D401800BC8D00C276DB /* droevig.png */; };
+		098F1D4E1800BC8D00C276DB /* duivel.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D411800BC8D00C276DB /* duivel.png */; };
+		098F1D4F1800BC8D00C276DB /* engel.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D421800BC8D00C276DB /* engel.png */; };
+		098F1D501800BC8D00C276DB /* gras.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D431800BC8D00C276DB /* gras.png */; };
+		098F1D511800BC8D00C276DB /* jezus.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D441800BC8D00C276DB /* jezus.png */; };
+		098F1D521800BC8D00C276DB /* lofprijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D451800BC8D00C276DB /* lofprijs.png */; };
+		098F1D531800BC8D00C276DB /* roodkruis.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D461800BC8D00C276DB /* roodkruis.png */; };
+		098F1D541800BC8D00C276DB /* verdrietig.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D471800BC8D00C276DB /* verdrietig.png */; };
+		098F1D551800BC8D00C276DB /* zand.png in Resources */ = {isa = PBXBuildFile; fileRef = 098F1D481800BC8D00C276DB /* zand.png */; };
+		098F1D571800BD7000C276DB /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098F1D561800BD7000C276DB /* Reveal.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		09FE7A0218008579000ECF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE7A0118008579000ECF1A /* Foundation.framework */; };
 		09FE7A0418008579000ECF1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE7A0318008579000ECF1A /* CoreGraphics.framework */; };
 		09FE7A0618008579000ECF1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09FE7A0518008579000ECF1A /* UIKit.framework */; };
@@ -35,6 +51,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098F1D3618009EE700C276DB /* HTHScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHScrollCell.h; sourceTree = "<group>"; };
+		098F1D3718009EE700C276DB /* HTHScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHScrollCell.m; sourceTree = "<group>"; };
+		098F1D3918009F4A00C276DB /* HTHDragCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHDragCell.h; sourceTree = "<group>"; };
+		098F1D3A18009F4A00C276DB /* HTHDragCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHDragCell.m; sourceTree = "<group>"; };
+		098F1D3C1800BC8D00C276DB /* blij.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blij.png; sourceTree = "<group>"; };
+		098F1D3D1800BC8D00C276DB /* danken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = danken.png; sourceTree = "<group>"; };
+		098F1D3E1800BC8D00C276DB /* donderwolk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donderwolk.png; sourceTree = "<group>"; };
+		098F1D3F1800BC8D00C276DB /* donkerdenken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donkerdenken.png; sourceTree = "<group>"; };
+		098F1D401800BC8D00C276DB /* droevig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = droevig.png; sourceTree = "<group>"; };
+		098F1D411800BC8D00C276DB /* duivel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duivel.png; sourceTree = "<group>"; };
+		098F1D421800BC8D00C276DB /* engel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = engel.png; sourceTree = "<group>"; };
+		098F1D431800BC8D00C276DB /* gras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gras.png; sourceTree = "<group>"; };
+		098F1D441800BC8D00C276DB /* jezus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jezus.png; sourceTree = "<group>"; };
+		098F1D451800BC8D00C276DB /* lofprijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lofprijs.png; sourceTree = "<group>"; };
+		098F1D461800BC8D00C276DB /* roodkruis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roodkruis.png; sourceTree = "<group>"; };
+		098F1D471800BC8D00C276DB /* verdrietig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verdrietig.png; sourceTree = "<group>"; };
+		098F1D481800BC8D00C276DB /* zand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zand.png; sourceTree = "<group>"; };
+		098F1D561800BD7000C276DB /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		09FE79FE18008579000ECF1A /* ZSS Lofprijs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZSS Lofprijs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FE7A0118008579000ECF1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09FE7A0318008579000ECF1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +99,7 @@
 				09FE7A0418008579000ECF1A /* CoreGraphics.framework in Frameworks */,
 				09FE7A0618008579000ECF1A /* UIKit.framework in Frameworks */,
 				09FE7A0218008579000ECF1A /* Foundation.framework in Frameworks */,
+				098F1D571800BD7000C276DB /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +119,7 @@
 		09FE79F518008579000ECF1A = {
 			isa = PBXGroup;
 			children = (
+				098F1D561800BD7000C276DB /* Reveal.framework */,
 				09FE7A0718008579000ECF1A /* ZSS Lofprijs */,
 				09FE7A261800857C000ECF1A /* ZSS LofprijsTests */,
 				09FE7A0018008579000ECF1A /* Frameworks */,
@@ -119,6 +155,10 @@
 				09FE7A131800857A000ECF1A /* Main.storyboard */,
 				09FE7A161800857A000ECF1A /* HTHViewController.h */,
 				09FE7A171800857A000ECF1A /* HTHViewController.m */,
+				098F1D3618009EE700C276DB /* HTHScrollCell.h */,
+				098F1D3718009EE700C276DB /* HTHScrollCell.m */,
+				098F1D3918009F4A00C276DB /* HTHDragCell.h */,
+				098F1D3A18009F4A00C276DB /* HTHDragCell.m */,
 				09FE7A191800857B000ECF1A /* Images.xcassets */,
 				09FE7A3618008A13000ECF1A /* images.plist */,
 				09FE7A081800857A000ECF1A /* Supporting Files */,
@@ -129,6 +169,19 @@
 		09FE7A081800857A000ECF1A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				098F1D3C1800BC8D00C276DB /* blij.png */,
+				098F1D3D1800BC8D00C276DB /* danken.png */,
+				098F1D3E1800BC8D00C276DB /* donderwolk.png */,
+				098F1D3F1800BC8D00C276DB /* donkerdenken.png */,
+				098F1D401800BC8D00C276DB /* droevig.png */,
+				098F1D411800BC8D00C276DB /* duivel.png */,
+				098F1D421800BC8D00C276DB /* engel.png */,
+				098F1D431800BC8D00C276DB /* gras.png */,
+				098F1D441800BC8D00C276DB /* jezus.png */,
+				098F1D451800BC8D00C276DB /* lofprijs.png */,
+				098F1D461800BC8D00C276DB /* roodkruis.png */,
+				098F1D471800BC8D00C276DB /* verdrietig.png */,
+				098F1D481800BC8D00C276DB /* zand.png */,
 				09FE7A091800857A000ECF1A /* ZSS Lofprijs-Info.plist */,
 				09FE7A0A1800857A000ECF1A /* InfoPlist.strings */,
 				09FE7A0D1800857A000ECF1A /* main.m */,
@@ -236,9 +289,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FE7A3718008A13000ECF1A /* images.plist in Resources */,
+				098F1D491800BC8D00C276DB /* blij.png in Resources */,
+				098F1D521800BC8D00C276DB /* lofprijs.png in Resources */,
+				098F1D4A1800BC8D00C276DB /* danken.png in Resources */,
+				098F1D4C1800BC8D00C276DB /* donkerdenken.png in Resources */,
+				098F1D4F1800BC8D00C276DB /* engel.png in Resources */,
+				098F1D541800BC8D00C276DB /* verdrietig.png in Resources */,
+				098F1D551800BC8D00C276DB /* zand.png in Resources */,
+				098F1D531800BC8D00C276DB /* roodkruis.png in Resources */,
 				09FE7A1A1800857B000ECF1A /* Images.xcassets in Resources */,
 				09FE7A0C1800857A000ECF1A /* InfoPlist.strings in Resources */,
+				098F1D4E1800BC8D00C276DB /* duivel.png in Resources */,
+				098F1D501800BC8D00C276DB /* gras.png in Resources */,
+				098F1D511800BC8D00C276DB /* jezus.png in Resources */,
 				09FE7A151800857A000ECF1A /* Main.storyboard in Resources */,
+				098F1D4D1800BC8D00C276DB /* droevig.png in Resources */,
+				098F1D4B1800BC8D00C276DB /* donderwolk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +324,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FE7A181800857A000ECF1A /* HTHViewController.m in Sources */,
+				098F1D3818009EE700C276DB /* HTHScrollCell.m in Sources */,
 				09FE7A0E1800857A000ECF1A /* main.m in Sources */,
 				09FE7A121800857A000ECF1A /* HTHAppDelegate.m in Sources */,
+				098F1D3B18009F4A00C276DB /* HTHDragCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,9 +457,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/HarmHero/Dropbox/_concepten/ZSS\\ Lofprijs",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSS Lofprijs/ZSS Lofprijs-Prefix.pch";
 				INFOPLIST_FILE = "ZSS Lofprijs/ZSS Lofprijs-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +476,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/HarmHero/Dropbox/_concepten/ZSS\\ Lofprijs",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZSS Lofprijs/ZSS Lofprijs-Prefix.pch";
 				INFOPLIST_FILE = "ZSS Lofprijs/ZSS Lofprijs-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

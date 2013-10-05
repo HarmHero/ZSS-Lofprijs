@@ -16,15 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="gras" translatesAutoresizingMaskIntoConstraints="NO" id="o6I-4K-cKW">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gras.png" translatesAutoresizingMaskIntoConstraints="NO" id="o6I-4K-cKW">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="643" id="A2I-xR-YMb"/>
+                                    <constraint firstAttribute="height" constant="768" id="A2I-xR-YMb"/>
                                     <constraint firstAttribute="width" constant="1024" id="zqc-Z5-lBP"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MVK-z3-4b1">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MVK-z3-4b1">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="643"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="width" constant="1024" id="Gm8-z0-mnJ"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wS-7E-bsH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wS-7E-bsH">
                                 <rect key="frame" x="0.0" y="640" width="1024" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -44,7 +44,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="o6I-4K-cKW" firstAttribute="bottom" secondItem="MVK-z3-4b1" secondAttribute="bottom" id="aJb-cS-kd9"/>
+                            <constraint firstAttribute="bottom" secondItem="2wS-7E-bsH" secondAttribute="bottom" id="HBs-k0-kyf"/>
+                            <constraint firstItem="2wS-7E-bsH" firstAttribute="leading" secondItem="o6I-4K-cKW" secondAttribute="leading" id="LIV-f9-nrS"/>
+                            <constraint firstItem="2wS-7E-bsH" firstAttribute="leading" secondItem="MVK-z3-4b1" secondAttribute="leading" id="LMZ-sF-FFK"/>
+                            <constraint firstItem="o6I-4K-cKW" firstAttribute="bottom" secondItem="MVK-z3-4b1" secondAttribute="bottom" constant="125" id="aJb-cS-kd9"/>
+                            <constraint firstItem="2wS-7E-bsH" firstAttribute="bottom" secondItem="o6I-4K-cKW" secondAttribute="bottom" id="pF0-1h-MGo"/>
+                            <constraint firstItem="2wS-7E-bsH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="x2M-O2-PC1"/>
                             <constraint firstItem="o6I-4K-cKW" firstAttribute="top" secondItem="MVK-z3-4b1" secondAttribute="top" id="xXE-2u-nxZ"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -60,7 +65,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gras" width="616" height="616"/>
+        <image name="gras.png" width="616" height="616"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
